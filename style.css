@@ -161,4 +161,7 @@
         height: auto;
         padding: 0px;   
     }
+    .header .btn button{
+    padding: 15px 25px;
+    }
 }
