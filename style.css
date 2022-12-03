@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(25, 20, 17);
+    color: white;
+    padding: 0 100px;
+}
+
+.header h1{
+    color: white;
+    height: 70px;
+    width: auto;
+    margin-top: 50px;
+    transition: all 0.3s;
+    cursor: none;
+}
+
+.header h1:hover{
+    transform: scale(1.2);
+}
+
+.header .btn-wpp img{
+    cursor: none;
+    padding: 9px 25px;
+    width: 110px;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn-wpp img:hover{
+    transform: scale(1.1);
+}
+.header .btn button{
+    cursor: none;
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background: #1ebb59;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #1ebb59;
+    transform: scale(1.1);
+}
+
+/* Main | Contenido*/
+.fondo{
+    background-image: url(https://images.pexels.com/photos/5095947/pexels-photo-5095947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    height: 858px;
+    background-size: auto;
+}
+
+.main{
+    display: flex;
+}
+.maindos{
+    display: flex;
+}
+
+.content1{
+    width: 50%;
+    height: 60vh;
+    padding: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.content2{  
+    width: 50%;
+    height: 60vh;
+    padding: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.content11{
+    width: 50%;
+    height: 60vh;
+    padding: 35px;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+}
+
+.content22{  
+    width: 50%;
+    height: 60vh;
+    padding: 35px;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+}
+
+/*Footer*/
+.danger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191411;
+    color: white;
+    padding: 10PX 0;
+}
+
+.danger h1{
+    padding: 0 10px;
+}
+
+.pb{
+    text-align: center;
+    background-color: #191411;
+    color: white;
+    padding: 10px 25px;
+
+}
+
+.pb span{
+    color: #E2C112;
+}
+
+.pb p{
+    display: flex;
+    text-align: justify;
+}
+
+/*Responsive*/
+@media screen and (max-width:1180px){
+    .header{
+        flex-direction: column;
+        padding: 15px 15px;
+    }
+    .header h1{
+        padding: 0px 0px;
+    }
+    .header a{
+        padding: 12px 0px;
+    }
+    .danger{
+        flex-direction: row;    
+    }
+    .danger img{
+        padding: 0 20px;
+    } 
+    .fondo{
+        width: 100%; 
+        height: auto;
+        padding: 0px;   
+    }
+}
